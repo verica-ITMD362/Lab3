@@ -36,6 +36,8 @@ p {
 #input-email input {
     background-color: rgb(207, 148, 251);
     border-color: rgb(207, 148, 251);
+    color: #1e1e1e;
+    font-weight: normal;
 }
 
 #input-email label {
@@ -70,4 +72,19 @@ p {
     border-color: rgb(106, 39, 157);
     font-family: "Roboto Mono", monospace, sans-serif;
     text-align: center;
+}
+  
+@media only screen and (max-width: 575px) {
+    body {
+        margin: 2%;
+    }
+  
+    #content {
+        width: 100%;
+    }
+  
+    #submit {
+        box-shadow: 1px 1px 1px 1px rgba(39, 39, 39, 0.253);
+    }
+    
 }
